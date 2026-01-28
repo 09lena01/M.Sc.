@@ -1,0 +1,41 @@
+\documentclass{standalone}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[]{pgfplots}
+\usepackage[]{tikz}
+\usepackage[dvipsnames]{xcolor}
+\usetikzlibrary{calc}
+
+\pgfplotsset{compat=1.18}
+\pgfplotsset{every axis label/.append style={font=\small}}
+\pgfplotsset{every tick label/.append style={font=\small}}
+\pgfplotsset{every axis plot post/.append style={mark=none}}
+\pgfkeys{/pgf/number format/.cd,use comma}
+\begin{document}
+	\begin{tikzpicture} 
+		\begin{axis} 
+			[xlabel={[Q] [nM]}, 
+			ylabel={$\frac{\tau_0}{\tau}$ [a.u.]},
+			%xmode=log,
+			%minor y tick num=4,
+			%ymin=0,
+			%ymax=270,
+			%legend style={font=\tiny},
+			%legend pos=outer north east,
+			%xmin=0,
+			%xmax=160
+			%xtickten={-6,-5,-4,-3,-2,-1,0,1,2,3,4,5},
+			%minor x tick num=9,
+			%tick label style={font=\scriptsize}
+			]
+			\addplot [domain=0:100, smooth, black] {0.0206*x+1};
+			\draw [blue, fill] (0,1) circle (1pt) node {};
+			\draw [blue, fill] (5,1.11) circle (1pt) node{};
+			\draw [blue, fill] (10,1.21) circle (1pt) node{};
+			\draw [blue, fill] (25,1.48) circle (1pt) node{};
+			\draw [blue, fill] (50,2) circle (1pt) node{};
+			\draw [blue, fill] (100,3.08) circle (1pt) node{};
+			\draw [] (25,2.5) node{$\frac{\tau_0}{\tau}([Q])$=0,0206[Q]+1};
+		\end{axis}
+	\end{tikzpicture}
+\end{document}

@@ -1,0 +1,37 @@
+\documentclass{standalone}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[]{pgfplots}
+\usepackage[]{tikz}
+\usepackage[dvipsnames]{xcolor}
+\usetikzlibrary{calc}
+
+\pgfplotsset{compat=1.9}
+\pgfplotsset{every axis label/.append style={font=\small}}
+\pgfplotsset{every tick label/.append style={font=\small}}
+\pgfplotsset{every axis plot post/.append style={mark=none}}
+\begin{document}
+	\begin{tikzpicture} 
+		\begin{axis} 
+			[title=\scriptsize {3.5 -- Thermodynamisch kontrollierte Größe}, 
+			xlabel={Wellenlänge [nm]}, 
+			ylabel={normierte Absorption [1]},
+			minor x tick num=4,
+			minor y tick num=1,
+			xmin=350,
+			xmax=850,
+			ymin=-0.04,
+			ymax=1.04,
+			ytick={-0.1,0,...,1.4},
+			xtick={250,300,...,850},
+			legend style={font=\tiny},
+			legend pos=outer north east
+			]
+			\addplot [Cerulean] table [x index=0, y index=1]{Sol4.txt};\addlegendentry{Sol 4 - 0 min};
+			\addplot [SpringGreen] table [x index=0, y index=1]{T15.txt};\addlegendentry{Sol 4 - 15 min};
+			\addplot [YellowGreen] table [x index=0, y index=1]{T30.txt};\addlegendentry{Sol 4 - 30 min};
+			\addplot [JungleGreen] table [x index=0, y index=1]{T45.txt};\addlegendentry{Sol 4 - 45 min};
+			\addplot [OliveGreen] table [x index=0, y index=1]{T60.txt};\addlegendentry{Sol 4 - 60 min};
+		\end{axis}
+	\end{tikzpicture}
+\end{document}

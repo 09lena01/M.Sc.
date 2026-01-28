@@ -1,0 +1,52 @@
+\documentclass[float=false, crop=true]{standalone}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\usepackage{textgreek}
+\usepackage[super, square]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{import}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,gensymb,textcomp}
+\usepackage[makeroom]{cancel}
+\usetikzlibrary{calc}
+
+\pgfplotsset{compat=1.17}
+\pgfkeys{/pgf/number format/.cd,use comma,set thousands separator={}}
+
+\begin{document}
+	
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=\textwidth,
+			% scaled ticks=false, tick label style={/pgf/number format/fixed},%kein 10^n
+			height=10cm,
+			legend pos=north east,
+			xlabel = {$t$ [s]},
+			ylabel = {$p_i$},
+			%x tick label style={/pgf/number format/.cd, use comma,set thousands separator={}},
+			%y tick label style={/pgf/number format/.cd, use comma, set thousands separator={}},
+			%yticklabel=\empty,
+			xmin = 0, 
+			xmax = 1*10^-8,
+			ymin = 0,
+			ymax = 1,
+			% scaled x ticks=base 10:12,
+			% scaled y ticks=base 10:-6,
+			% grid=both,
+			% xtick = {0,10,20,...,100},
+			% minor x tick num=4,
+			% ytick = {0,10,20,...,100},
+			% minor y tick num=4
+			% x dir=reverse,
+			% y dir=reverse
+			]
+			\addplot [color=black, domain=0:1*10^-8, samples=400]{exp(-(1/(4*10^-9)+5.8*10^8)*x)};
+			\addplot [color=blue, domain=0:1*10^-8, samples=400]{5.8*10^8/(1/(1.68*10^-9)-1/(4*10^-9)-5.8*10^8)*(exp(-(1/(4*10^-9)+5.8*10^8)*x)-exp(-(1/(1.68*10^-9))*x))};
+			\legend{$p_D(t)$, $p_A(t)$}
+		\end{axis}
+	\end{tikzpicture}
+	
+\end{document}
