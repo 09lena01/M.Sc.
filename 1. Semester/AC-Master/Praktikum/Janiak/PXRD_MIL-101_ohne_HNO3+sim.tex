@@ -1,0 +1,56 @@
+\documentclass[float=false, crop=true]{standalone}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{textgreek}
+\usepackage[super, square]{natbib}
+\usepackage{chemformula}%Summenformeln
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage{import}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,gensymb,textcomp}
+\usepackage[makeroom]{cancel}
+\usetikzlibrary{calc}
+
+\pgfplotsset{compat=1.17}
+\pgfkeys{/pgf/number format/.cd,
+	use comma,
+	set thousands separator={}
+	}
+
+\begin{document}
+	
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=\textwidth,
+			height=10cm,
+			legend pos=north east,
+			legend style={at={(0.97,0.8)},anchor=north east},
+			xlabel = {Beugungswinkel $2\theta$ / \degree},
+			ylabel = {normierte Intensität},
+			%x tick label style={/pgf/number format/.cd, use comma,set thousands separator={}},
+			%y tick label style={/pgf/number format/.cd, use comma, set thousands separator={}},
+			%yticklabel=\empty,
+			xmin = 4, 
+			xmax = 51,
+			ymin = -1.05,
+			ymax = 1.05,
+			% scaled x ticks=base 10:3,
+			% grid=both,
+			% xtick = {0,10,20,...,100},
+			minor x tick num=4,
+			% ytick = {0,0.10,0.20,...,1.00},
+			% minor y tick num=4
+			% x dir=reverse,
+			% y dir=reverse
+			title=Pulverdiffraktogramme von MIL-101
+			]
+			\addplot [red] table [x index=0,y index=1,col sep=semicolon]{C:/Users/assma/OneDrive/Desktop/M._Sc._Chemie/1. Semester/AC-Master/Praktikum/Janiak/MIL-101Cr_Simulation_norm.txt};
+			\addplot [black] table [x index=0,y index=1,col sep=semicolon]{C:/Users/assma/OneDrive/Desktop/M._Sc._Chemie/1. Semester/AC-Master/Praktikum/Janiak/MIL101_ohne_Modulator_Gr_15_16_norm.txt};
+			\legend{Simulation, ohne \ch{HNO3}}
+		\end{axis}
+	\end{tikzpicture}
+	
+\end{document}
