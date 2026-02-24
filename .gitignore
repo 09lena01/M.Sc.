@@ -11,4 +11,9 @@
 *.acn
 *.ist
 *.glo
+<<<<<<< HEAD
 *.lot
+=======
+*.lot
+1. Semester/AC-Master/Lehrbuch/
+>>>>>>> refs/remotes/origin/main
