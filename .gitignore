@@ -11,5 +11,10 @@
 *.acn
 *.ist
 *.glo
+*.mp4
+<<<<<<< HEAD
+*.lot
+=======
 *.lot
 1. Semester/AC-Master/Lehrbuch/
+>>>>>>> refs/remotes/origin/main
