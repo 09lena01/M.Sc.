@@ -1,0 +1,35 @@
+hydrogele vernetzungen
+einzelne Beispiele von 3 Arten
+Praxisanwendungen nicht im Detail
+Vernetzer, Initiato, Makroinitiator
+
+Aufbau Hydrogel, Unterschiedung hydrogel und polymer in lsg
+Vernetzungsgrad, quellungsgrad, x - 
+mikrogele
+Verfahren mikrogele herzustellen, nicht im detail
+
+selbstassemblierung, cmc, formfaktor
+was sind komponenten formfaktorgleichung
+Abbildung
+Größenordung für Werte von P
+
+Generelle Idee Copolymere (Pakcung)
+Verhältnis Schale Kern, Darstellung
+Gibbsenergie -> Quellen, pseudoideal, Kontraktion - Enthalpische und Entropische Anteile
+χ positiv, χ negativ -> Flory Huggins param
+
+Unterschied miktoarm - star polymer
+nomenklatur -> Strukutr
+Strukut -> Nomenklatur
+was ist core first, arm first, in-out, nicht Beispiele aufmalen
+Aus gegebenen Komponenten entscheiden -> arm first, core first
+(evt Benutzung -> Drug delivery ist Joker)
+
+Methoden für Nachweise von Mikrogelen -> AFM, TEM, SEM. cryo-TEM, ζ-Potenzial
+Anwendung Miktoarm - Tissue engineering, wundheilung
+
+Photoinit - Unterscheidung Typen, keine Beispiele
+gegeben Init -> Typ 1 oder Typ 2?
+Allg Benutzung Photoinit - 3D Druck, Masking
+
+Für jede Anwendungsklasse ein Beispiel

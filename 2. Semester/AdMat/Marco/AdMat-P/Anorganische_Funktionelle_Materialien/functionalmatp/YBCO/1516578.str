@@ -1,0 +1,13 @@
+PHASE=YttriumBaryumCopperOxide // cod_1516578
+Reference=cod_1516578 //
+Formula=Ba2_Cu2.92_O6_Y //
+SpacegroupNo=123 HermannMauguin=P4/m2/m2/m Setting=1 UniqueAxis=c Lattice=Tetragonal //
+PARAM=A=0.386400_0.382536^0.390264 PARAM=C=1.178200_1.166418^1.189982 //
+RP=4 k1=0 k2=0 PARAM=B1=0_0^0.01 GEWICHT=SPHAR4 //
+GOAL:YttriumBaryumCopperOxide=GEWICHT*ifthenelse(ifdef(d),exp(my*d*3/4),1) //
+E=BA Wyckoff=h x=0.500000 y=0.500000 z=0.194114 TDS=0.007680
+E=CU(0.9260) Wyckoff=a x=0.000000 y=0.000000 z=0.000000 TDS=0.010100
+E=CU Wyckoff=g x=0.000000 y=0.000000 z=0.360610 TDS=0.004780
+E=O Wyckoff=g x=0.000000 y=0.000000 z=0.151600 TDS=0.014100
+E=O Wyckoff=i x=0.000000 y=0.500000 z=0.378400 TDS=0.006300
+E=Y Wyckoff=d x=0.500000 y=0.500000 z=0.500000 TDS=0.004100

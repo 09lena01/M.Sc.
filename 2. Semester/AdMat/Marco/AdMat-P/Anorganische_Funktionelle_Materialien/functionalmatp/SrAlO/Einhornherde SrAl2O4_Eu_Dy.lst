@@ -1,0 +1,59 @@
+Rietveld refinement to file(s) Einhornherde SrAl2O4_Eu_Dy.xy
+BGMN version 4.2.22, 5086 measured points, 345 peaks, 50 parameters
+Start: Thu Jul  6 16:39:42 2023; End: Thu Jul  6 16:40:05 2023
+91 iteration steps
+
+Rp=7.22%  Rpb=18.25%  R=10.37%  Rwp=10.24% Rexp=4.77%
+Durbin-Watson d=0.45
+1-rho=3.08%
+
+Global parameters and GOALs
+****************************
+QStrontiumDialuminiumOxide=0.9549+-0.0015
+QAl=0.0451+-0.0015
+EPS2=-0.0032853+-0.0000087
+
+Local parameters and GOALs for phase StrontiumDialuminiumOxide
+******************************************************
+SpacegroupNo=4
+HermannMauguin=P12_11
+XrayDensity=3.560
+Rphase=8.50%
+UNIT=NM
+A=0.844232+-0.000025
+B=0.882288+-0.000026
+C=0.515785+-0.000016
+BETA=93.4099+-0.0021
+B1=0.003262+-0.000039
+GEWICHT=SPHAR4, MeanValue(GEWICHT)=0.243716
+Atomic positions for phase StrontiumDialuminiumOxide
+---------------------------------------------
+  2     0.1890  0.8305  0.7152     E=(AL+3(1.0000))
+  2     0.7993  0.8393  0.7315     E=(AL+3(1.0000))
+  2     0.7087  0.6682  0.2211     E=(AL+3(1.0000))
+  2     0.6806  0.1709  0.7959     E=(AL+3(1.0000))
+  2     0.2653  0.1739  0.4364     E=(O-2(1.0000))
+  2     0.7305  0.3165  0.5871     E=(O-2(1.0000))
+  2     0.3258  0.4911  0.3295     E=(O-2(1.0000))
+  2     0.2670  0.9838  0.8987     E=(O-2(1.0000))
+  2     0.1758  0.2977  0.9366     E=(O-2(1.0000))
+  2     0.2059  0.6661  0.9086     E=(O-2(1.0000))
+  2     0.4890  0.2164  0.8818     E=(O-2(1.0000))
+  2     0.9937  0.8854  0.6513     E=(O-2(1.0000))
+  2     0.4915  0.9992  0.2501     E=(SR+2(1.0000))
+  2     0.0291  0.9932  0.2027     E=(SR+2(1.0000))
+
+Local parameters and GOALs for phase Al
+******************************************************
+SpacegroupNo=225
+HermannMauguin=F4/m-32/m
+XrayDensity=2.627
+Rphase=24.61%
+UNIT=NM
+A=0.408585+-0.000029
+B1=0.00676+-0.00053
+GrainSize(1,1,1)=62.8+-4.9
+GEWICHT=SPHAR4, MeanValue(GEWICHT)=0.0115058
+Atomic positions for phase Al
+---------------------------------------------
+  4     0.0000  0.0000  0.0000     E=(AL(1.0000))

@@ -1,0 +1,28 @@
+Rietveld refinement to file(s) 6a_5-100_15min_rot_1-3.xy
+BGMN version 4.2.22, 430 measured points, 5 peaks, 16 parameters
+Start: Thu Jul 20 15:36:40 2023; End: Thu Jul 20 15:36:41 2023
+48 iteration steps
+
+Rp=6.14%  Rpb=28.43%  R=8.26%  Rwp=8.14% Rexp=4.05%
+Durbin-Watson d=0.73
+1-rho=74.2%
+
+Global parameters and GOALs
+****************************
+QNickel=1.00000
+EPS2=0.0100000
+
+Local parameters and GOALs for phase Nickel
+******************************************************
+SpacegroupNo=225
+HermannMauguin=F4/m-32/m
+XrayDensity=8.615
+Rphase=9.11%
+UNIT=NM
+A=0.356378
+B1=1.00000
+GrainSize(1,0,0)=0.424413
+GEWICHT=0.239+-0.042
+Atomic positions for phase Nickel
+---------------------------------------------
+  4     0.0000  0.0000  0.0000     E=(NI(1.0000))

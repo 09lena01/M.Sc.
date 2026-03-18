@@ -1,0 +1,48 @@
+Rietveld refinement to file(s) 4a_5-100_15min_rot_1-3.xy
+BGMN version 4.2.22, 430 measured points, 16 peaks, 36 parameters
+Start: Sun Jul  9 12:48:47 2023; End: Sun Jul  9 12:49:26 2023
+923 iteration steps
+
+Rp=3.71%  Rpb=28.32%  R=4.63%  Rwp=4.85% Rexp=3.65%
+Durbin-Watson d=1.33
+1-rho=8.27%
+
+Global parameters and GOALs
+****************************
+QNickel=0.17+-0.12
+QNickelOxide=0.83+-0.12
+EPS2=-0.00173+-0.00018
+
+Local parameters and GOALs for phase Nickel
+******************************************************
+SpacegroupNo=225
+HermannMauguin=F4/m-32/m
+XrayDensity=8.892
+Rphase=6.72%
+UNIT=NM
+A=0.35265+-0.00012
+k1=1.00000
+B1=0.01339+-0.00078
+GrainSize(1,0,0)=23.8+-1.4
+GEWICHT=0.0308+-0.0011
+Atomic positions for phase Nickel
+---------------------------------------------
+  4     0.0000  0.0000  0.0000     E=(NI(1.0000))
+
+Local parameters and GOALs for phase NiO
+******************************************************
+SpacegroupNo=166
+HermannMauguin=R-32/m
+XrayDensity=6.875
+Rphase=4.65%
+UNIT=NM
+A=0.292535
+C=0.730432
+k1=0.7+-5.9
+B1=0.25+-0.42
+GrainSize(1,1,1)=1.37+-0.63
+GEWICHT=SPHAR4, MeanValue(GEWICHT)=0.146827
+Atomic positions for phase NiO
+---------------------------------------------
+  3     0.0000  0.0000  0.0000     E=(NI(1.0000))
+  3     0.0000  0.0000  0.5000     E=(O(1.0000))

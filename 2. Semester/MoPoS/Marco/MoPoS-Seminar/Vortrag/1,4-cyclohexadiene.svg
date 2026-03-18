@@ -1,0 +1,29 @@
+<!-- keep in sync with https://commons.wikimedia.org/wiki/File:1,3-cyclohexadiene.svg -->
+<svg version="1.1" width="193.2" height="210" viewBox="-91.60254 -105 183.20508 210" 
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>1,4-Cyclohexadiene</title>
+ <desc>Skeletal formula of 1,4-cyclohexadiene</desc>
+ 
+ <style type="text/css">
+  svg { fill:none; stroke:black; stroke-width:5; stroke-linejoin:round; }
+ </style>
+ 
+ <!--
+   - hexagon edge length is a = 100   =>   a*sin(60°) = a*sqrt(3)/2 ≈ 86.60254
+   - spacing between the hexagon and the double bond line: d = 0.2*a = 20
+       => horiz/vert space between the hexagon vertices and the double bond line's
+          endpoints is d*sin(30°) = d/2 = 10  and  d*sin(60°) = d*sqrt(3)/2 ≈ 17.32051
+       => double bond line's length is a-2*(d*sin(30°)) = 0.8*a = 80
+ -->
+ 
+ <defs>
+  <path id="dbl_bond" d="M -40,-69.28203 L 40,-69.28203"/>
+ </defs>
+ 
+ <path id="hex" d="M 0,-100 L 86.60254,-50 L 86.60254,50 L 0,100 L -86.60254,50 L -86.60254,-50 z"/>
+ 
+ <use  id="bond_2_3" xlink:href="#dbl_bond" transform="rotate(-90)"/>
+ <use  id="bond_4_5" xlink:href="#dbl_bond" transform="rotate(+90)"/>
+</svg>

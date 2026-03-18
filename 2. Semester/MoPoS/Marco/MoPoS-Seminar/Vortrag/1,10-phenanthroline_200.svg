@@ -1,0 +1,19 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="106" shape-rendering="geometricPrecision" width="130" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" preserveAspectRatio="xMidYMid">
+<title>1,10-phenanthroline</title>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>1,10-phenanthroline</dc:title>
+<cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+</cc:Work>
+<cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+<cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+<cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<path d="M102.1875,2,85.40625,11.6875,86.03125,12.71875,102.1875,3.375,126.5,17.40625,126.5,45.46875,102.1875,59.5,77.90625,45.46875,77.90625,27.53125,76.6875,27.53125,76.6875,45.46875,52.40625,59.5,36.21875,50.15625,35.625,51.1875,51.8125,60.53125,51.8125,88.59375,27.5,102.625,3.1875,88.59375,3.1875,60.53125,19.375,51.1875,18.78125,50.15625,2,59.84375,2,89.28125,27.5,104,52.40625,89.625,77.3125,104,102.8125,89.28125,102.8125,60.53125,127.6875,46.15625,127.6875,16.71875,102.1875,2zm0.3125,6.15625-0.59375,1.03125,19.71875,11.40625,0.59375-1.0625-19.71875-11.375zm-30.875,1.78125,0,14.3125,1.8125,0,0-11.25,7.53125,11.25,1.9375,0,0-14.3125-1.8125,0,0,11.21875-7.53125-11.21875-1.9375,0zm10.25,17.59375,0,15.3125,1.21875,0,0-15.3125-1.21875,0zm-60.03125,11.15625,0,14.3125,1.8125,0,0-11.25,7.53125,11.25,1.9375,0,0-14.3125-1.8125,0,0,11.21875-7.53125-11.21875-1.9375,0zm99.78125,3.625-19.71875,11.375,0.59375,1.0625,19.71875-11.40625-0.59375-1.03125zm-44.3125,4.1875,24.28125,14.03125,0,28.0625-24.28125,14.03125-24.3125-14.03125,0-28.0625,24.3125-14.03125zm-43.6875,8.125-0.59375,1.0625,13.90625,8,0.59375-1.03125-13.90625-8.03125zm-26.4375,8.5625,0,22.75,1.1875,0,0-22.75-1.1875,0zm39.71875,22.25-19.71875,11.375,0.625,1.0625,19.71875-11.40625-0.625-1.03125zm49.8125,0-19.71875,11.375,0.59375,1.0625,19.71875-11.40625-0.59375-1.03125z" fill="#000"/>
+</svg>

@@ -1,0 +1,37 @@
+% SampleID: Gruppen Lorena Einhornherde_YBCO.xy Data 1
+% Theoretical instrumental function
+VERZERR=HHU_Suta_Xpert_Pro.geq
+% Wavelength
+LAMBDA=CU
+% Phases
+STRUC[1]=1516578.str
+STRUC[2]=1541743.str
+% Measured background
+% Measured data
+VAL[1]=Gruppen Lorena Einhornherde_YBCO.xy
+% Minimum Angle (2theta)
+% WMIN=10
+% Maximum Angle (2theta)
+% WMAX=60
+% Result list output
+LIST=Gruppen Lorena Einhornherde_YBCO.lst
+% Peak list output
+OUTPUT=Gruppen Lorena Einhornherde_YBCO.par
+% Diagram output
+DIAGRAMM=Gruppen Lorena Einhornherde_YBCO.dia
+% Global parameters for zero point and sample displacement
+EPS1=0
+PARAM[1]=EPS2=0_-0.01^0.01
+EPS3=0
+alpha3ratio=0.020
+betaratio=0.005
+NTHREADS=8
+PROTOKOLL=Y
+SAVE=N
+
+sum=YttriumBaryumCopperOxide+Y2O3
+QYttriumBaryumCopperOxide=YttriumBaryumCopperOxide/sum
+QY2O3=Y2O3/sum
+
+GOAL[1]=QYttriumBaryumCopperOxide
+GOAL[2]=QY2O3

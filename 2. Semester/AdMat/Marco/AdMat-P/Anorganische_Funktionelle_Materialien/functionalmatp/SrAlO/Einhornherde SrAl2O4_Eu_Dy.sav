@@ -1,0 +1,37 @@
+% SampleID: Einhornherde SrAl2O4_Eu_Dy.xy Data 1
+% Theoretical instrumental function
+VERZERR=HHU_Suta_Xpert_Pro.geq
+% Wavelength
+LAMBDA=CU
+% Phases
+STRUC[1]=1723469.str
+STRUC[2]=Al.str
+% Measured background
+% Measured data
+VAL[1]=Einhornherde SrAl2O4_Eu_Dy.xy
+% Minimum Angle (2theta)
+% WMIN=10
+% Maximum Angle (2theta)
+% WMAX=60
+% Result list output
+LIST=Einhornherde SrAl2O4_Eu_Dy.lst
+% Peak list output
+OUTPUT=Einhornherde SrAl2O4_Eu_Dy.par
+% Diagram output
+DIAGRAMM=Einhornherde SrAl2O4_Eu_Dy.dia
+% Global parameters for zero point and sample displacement
+EPS1=0
+PARAM[1]=EPS2=0_-0.01^0.01
+EPS3=0
+alpha3ratio=0.020
+betaratio=0.005
+NTHREADS=8
+PROTOKOLL=Y
+SAVE=N
+
+sum=StrontiumDialuminiumOxide+Al
+QStrontiumDialuminiumOxide=StrontiumDialuminiumOxide/sum
+QAl=Al/sum
+
+GOAL[1]=QStrontiumDialuminiumOxide
+GOAL[2]=QAl

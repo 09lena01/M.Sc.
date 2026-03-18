@@ -1,0 +1,34 @@
+% SampleID: UiO-66-1A.dat Data 1
+% Theoretical instrumental function
+VERZERR=HHU_Suta_Xpert_Pro.geq
+% Wavelength
+LAMBDA=CU
+% Phases
+STRUC[1]=4512072.str
+% Measured background
+% Measured data
+VAL[1]=UiO-66-1A.xy
+% Minimum Angle (2theta)
+% WMIN=10
+% Maximum Angle (2theta)
+% WMAX=60
+% Result list output
+LIST=UiO-66-1A.lst
+% Peak list output
+OUTPUT=UiO-66-1A.par
+% Diagram output
+DIAGRAMM=UiO-66-1A.dia
+% Global parameters for zero point and sample displacement
+EPS1=0
+PARAM[1]=EPS2=0_-0.01^0.01
+EPS3=0
+alpha3ratio=0.020
+betaratio=0.005
+NTHREADS=8
+PROTOKOLL=Y
+SAVE=N
+
+sum=UiO66
+QUiO66=UiO66/sum
+
+GOAL[1]=QUiO66
