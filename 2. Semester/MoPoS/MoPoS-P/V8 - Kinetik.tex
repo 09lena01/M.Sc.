@@ -1,0 +1,61 @@
+\documentclass{standalone}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[]{pgfplots}
+\usepackage[]{tikz}
+\usepackage[dvipsnames]{xcolor}
+\usetikzlibrary{calc}
+
+\pgfplotsset{compat=1.9}
+\pgfplotsset{every axis label/.append style={font=\small}}
+\pgfplotsset{every tick label/.append style={font=\small}}
+\pgfplotsset{every axis plot post/.append style={mark=none}}
+\pgfkeys{/pgf/number format/.cd,use comma}
+\begin{document}
+	\begin{tikzpicture} 
+		\begin{axis} 
+			[title=\scriptsize {V8 -- RAFT Polymerization of N-acryloylmorpholine (NAM)}, 
+			xlabel={Zeit [min]}, 
+			ylabel={$ln(\frac{1}{1-\mathrm{conversion}})$ [a.u.]},
+			minor x tick num=4,
+			minor y tick num=4,
+			%scaled ticks=false,
+			xmin=0,
+			xmax=130,
+			ymin=-0.2,
+			ymax=4.2,
+			%ytick={-0.1,0,...,1.4},
+			%xtick={250,300,...,850},
+			legend style={font=\tiny},
+			legend pos=outer north east
+			]
+			\addplot[only marks,
+			color=blue,
+			mark size=2pt
+			]
+			coordinates {
+				(52,0)(60,1.4330)(120,4.1166)
+			};
+			\addplot[only marks,
+			color=purple,
+			mark size=2pt
+			]
+			coordinates {
+				(30,0.5477)(60,2.1786)(120,4.0342)
+			};
+			\addplot [
+			domain=-0:120, 
+			samples=100, 
+			color=blue,
+			]
+			{0.05459*x-2.3715};
+			\addplot [
+			domain=-0:120, 
+			samples=100, 
+			color=purple,
+			]
+			{0.03762*x-0.3801};
+			\legend{MEN Kinetik,LMA Kinetik}
+		\end{axis}
+	\end{tikzpicture}
+\end{document}
