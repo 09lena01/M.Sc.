@@ -1,0 +1,18 @@
+{
+  "ink:create-drawing-section": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "ink:create-handwritten-section": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ]
+}
