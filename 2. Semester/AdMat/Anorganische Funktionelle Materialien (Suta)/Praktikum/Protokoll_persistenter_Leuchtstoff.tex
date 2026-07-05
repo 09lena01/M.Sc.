@@ -90,15 +90,66 @@
 	\begin{figure}[h]
 		\centering
 		\includegraphics[height=9cm]{Luminova.png}
-		\caption{Anwendung des persistenten Leuchtstoffs LumaNova\textsuperscript{\textregistered} in b{)} Rettungszeichen, c{) analogen Uhren, d{)} Farben zur Wegbeleuchtung.} \cite{xu_persistent_2019}}
+		\caption{Anwendung des persistenten Leuchtstoffs LumaNova\textsuperscript{\textregistered} (\ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}}) in \linebreak b{)} Rettungszeichen, c{) analogen Uhren, d{)} Farben zur Wegbeleuchtung.} \cite{xu_persistent_2019}}
 	\end{figure}
 	\chapter{Theoretischer Hintergrund} %max 2 Seiten
 	
 	\chapter{Resultate und Diskussion} %max 3 Seiten
+	Abweichend von der Versuchsvorschrift\cite{suta_versuchsskript_2026} wurden die Edukte für \SI{10}{min} miteinander verrieben und die Aktivkohle in einer geschlossenen Atmosphäre neben den Tiegel platziert, um die reduktive Wirkung der Aktivkohle zu erhöhen.
+	
+	Die Einwaagen betrugen folgende Werte:
+	\begin{table}[H]
+		\centering
+		\caption{Einwaagen der Edukte für die Synthese.}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Chemikalie}& \textbf{Einwaage soll} [mg]& \textbf{Einwaage ist} [mg]   \\ \hline
+			\ch{SrCO3}& 172,30 &  172,0  \\ \hline
+			$\gamma$-\ch{Al2O3}& 122,70 &  121,8  \\ \hline
+			\ch{Eu2O3}& 2,12 &  2,9  \\ \hline
+			\ch{Dy2O3}& 4,49 &  4,5  \\ \hline
+		\end{tabular}
+	\end{table}
+	
+
+	\begin{center}
+	\begin{minipage}[t]{0.45\textwidth}
+		\raggedright
+		\includegraphics[height=6cm]{"SrAl2O4_glow.JPEG"}
+		\captionof{figure}{Nachleuchten des Produkts nach Bestrahlung mit UV-Licht bei Raumtemperatur.}
+	\end{minipage}
+	\begin{minipage}[t]{0.45\textwidth}
+		\raggedleft
+		\includegraphics[height=6cm]{"SrAl2O4_cold.JPEG"}
+		\captionof{figure}{Fehlendes Nachleuchten des Produkts nach Bestrahlung mit UV-Licht nach Kühlen mit flüssigem Stickstoff.}
+	\end{minipage}
+	\end{center}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{PXRD_comparison.PNG}
+		\caption{Gegenüberstellung des normierten PXRDs der Referenzmessung (\textcolor{red}{\rule[0.5ex]{1em}{0.5pt}}) und dem hergestellten Produkt (\textcolor{black}{\rule[0.5ex]{1em}{0.5pt}}).}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{PXRD_shift.PNG}
+		\captionof{figure}{Darstellung der Verschiebung der Referenz- und Probenmessung, sowie der unterschiedlichen Signalformen.}
+	\end{figure}
+	\begin{minipage}[t]{0.5\textwidth}
+		\raggedleft
+		\includegraphics[width=\textwidth]{PXRD_14-21_impurity.PNG}
+		\captionof{figure}{heading}
+	\end{minipage}
+	\begin{minipage}[t]{0.5\textwidth}
+		\raggedright
+		\includegraphics[width=\textwidth]{PXRD_32-39_impurity.PNG}
+		\captionof{figure}{heading}
+	\end{minipage}
 	
 	\chapter{Zusammenfassung} %max 1 Seite
 	
 	\listoffigures
 	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-	\printbibliography
+	{\let\clearpage\relax\printbibliography}
 	\end{document}
