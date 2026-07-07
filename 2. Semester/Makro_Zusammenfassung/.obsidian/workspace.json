@@ -8,30 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e5c881377d1c24a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
-            }
-          },
-          {
-            "id": "04e2d75d9086f4d6",
+            "id": "910c46dcbeb95c28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_Reversible-deactivation radical polymerization/NMP.md",
+                "file": "2_Insertion_polymerization;synthesis_of_polyolefins/Insertionspolymerisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NMP"
+              "title": "Insertionspolymerisation"
+            }
+          },
+          {
+            "id": "616d89c2d6ddd33a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/ADMET.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ADMET"
+            }
+          },
+          {
+            "id": "ac548e1b44488827",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/Cyclische Polymere.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyclische Polymere"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#NVP",
+                "query": "tag:#Topologie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,22 +211,29 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "4e5c881377d1c24a",
+  "active": "cfc2c919aa6a7ca0",
   "lastOpenFiles": [
-    "1_Reversible-deactivation radical polymerization/NMP.md",
-    "Bilder/NMP_Endgruppen-Funktionalisierung-α.png",
-    "Bilder/NMP_Endgruppen-Funktionalisierung-ω.png",
-    "Bilder/NMP_Nitroxid_2.png",
-    "Bilder/NMP_MMA.png",
-    "Bilder/NMP_SG1_Nebenreaktion.png",
-    "1_Reversible-deactivation radical polymerization/RAFT.md",
-    "Bilder/NMP_Nitroxide.png",
-    "Bilder/NMP_Nebenreaktion.png",
-    "Bilder/NMP_PRE.png",
-    "1_Reversible-deactivation radical polymerization/RDRP.md",
-    "Bilder/NMP_Initiation_TEMPO_PS.png",
-    "Bilder/NMP_Reaktion.png",
+    "Bilder/Cyclische_Polymere_Synthese_sekundäre_Cyclopolymerisation.png",
+    "Bilder/Cyclische_Polymere_Synthese_Cycloaddition_SNAr.png",
+    "Bilder/Cyclische_Polymere_Synthese_ROMP_Kaskade.png",
+    "Bilder/Cyclische_Polymere_Synthese_Engineering.png",
+    "Bilder/Cyclische_Polymere_Synthese_Beispiele.png",
+    "Bilder/Cyclische_Polymere_Sequenzkontrolle.png",
+    "Bilder/Cyclische_Polymere_supramolekulare_Komplexierung.png",
+    "Bilder/Cyclische_Polymere_Struktur_PLLA.png",
+    "Bilder/Cyclische_Polymere_Struktur_Coupling.png",
+    "Bilder/Cyclische_Polymere_Topologie.png",
+    "Bilder/Cyclische_Polymere_Ringerweiterung_ROMP.png",
+    "3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/ADMET.md",
+    "3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/Cyclische Polymere.md",
     "Monomere.md",
+    "2_Insertion_polymerization;synthesis_of_polyolefins/Insertionspolymerisation.md",
+    "3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization",
+    "1_Reversible-deactivation radical polymerization/ATRP.md",
+    "2_Insertion_polymerization;synthesis_of_polyolefins",
+    "1_Reversible-deactivation radical polymerization/RDRP.md",
+    "1_Reversible-deactivation radical polymerization/NMP.md",
+    "1_Reversible-deactivation radical polymerization/RAFT.md",
     "0_Reminder/Reminder.md",
     "Ink/Drawing/2026.7.5 - 12.36pm.drawing",
     "1_Reversible-deactivation radical polymerization",
@@ -217,8 +243,6 @@
     "Ink/Drawing/2026.7.5 - 11.30am.drawing",
     "Bilder",
     "Ink/Drawing/2026.7.5 - 11.19am.drawing",
-    "Ink/Drawing",
-    "Ink/Writing/2026.7.5 - 11.19am.writing",
     "Willkommen.md"
   ]
 }

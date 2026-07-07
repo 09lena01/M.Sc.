@@ -13,3 +13,8 @@
 #Polykondensation
 - #Dimethyl-Terephthalat + #Ethan-1_2-diol 
 #Polyaddition
+
+[[Insertionspolymerisation]]
+- #α-Olefine 
+[[ADMET]]
+- #α_ω-Diene 
