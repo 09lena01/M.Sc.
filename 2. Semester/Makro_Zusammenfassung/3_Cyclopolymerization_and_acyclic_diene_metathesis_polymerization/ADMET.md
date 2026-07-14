@@ -2,7 +2,7 @@
 - #Stufenwachstums-Polymerisation 
 - Monomere: #α_ω-Diene
 ![[ADMET_Grundlagenreaktion.png]]
-# Olefin-Metathese
+# Olefin- #Metathese
 - Austausch von Alken-Fragmenten
 ![[Olefin_Metathese.png]]
 # ADMET-Mechanismus
