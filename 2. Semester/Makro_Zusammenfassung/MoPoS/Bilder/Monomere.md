@@ -47,3 +47,14 @@
 	- #Vinyloxirane_VO
 	- #cyclische_Keten-Acetale_CKA
 	- #cyclische_Monomere_Ringöffnung_durch_Aromatisierung_AR
+	#cROP 
+	- 
+	#aROP
+	- d
+	#ROMP 
+	- #Norbonene_NBE 
+	- #Oxanorbonene_ONB 
+	- #Norbomendicarboxylanhydrid_NDA
+	- #Norbonendicarboximid_NDI 
+	- #Cycloocten_COE
+	- #Dicyclopentadien_DCP

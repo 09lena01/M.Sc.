@@ -16,13 +16,13 @@
 ## Ringerweiterung
 - [[RAFT]]
   ![[Cyclische_Polymere_Ringerweiterung_RAFT.png]]
-- [[ROMP]]
+- #ROMP
   ![[Cyclische_Polymere_Ringerweiterung_ROMP.png]]
 ## Weitere Beispiele
 - Synthese häufig #Radikalisch 
 ![[Cyclische_Polymere_Synthese_Beispiele.png]]
 ![[Cyclische_Polymere_Synthese_Engineering.png|697]]
-- [[ROMP]]
+- #ROMP
 - Kaskaden Cyclopolymerisation
 ![[Cyclische_Polymere_Synthese_ROMP_Kaskade.png]]
 - Cycloaddition
