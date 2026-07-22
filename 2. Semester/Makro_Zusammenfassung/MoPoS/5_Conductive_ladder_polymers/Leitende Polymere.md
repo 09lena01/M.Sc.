@@ -1,4 +1,3 @@
-
 | Material   | Leitfähigkeit σ $S*cm^{-1}$ | Materialien                               |
 | ---------- | --------------------------- | ----------------------------------------- |
 | Isolator   | $<10^{-7}$                  | Glass, Gummi, Öl, Plastik, Diamant        |
