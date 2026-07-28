@@ -1,60 +1,24 @@
 {
   "main": {
-    "id": "4a56c128adab1b5e",
+    "id": "b720531c6ae72b7a",
     "type": "split",
     "children": [
       {
-        "id": "74779af977b01294",
+        "id": "f565e450f4d6f17b",
         "type": "tabs",
         "children": [
           {
-            "id": "9fcf181a38001521",
+            "id": "cabd1f55bbdcd6fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MoPoS/Klausuraufgaben.md",
+                "file": "MoPoS/6_Macromolecular_Engineering/Macromolecular Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Klausuraufgaben"
-            }
-          },
-          {
-            "id": "7d01dfc524c7470d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MoPoS/5_Conductive_ladder_polymers/Leitende Polymere.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Leitende Polymere"
-            }
-          },
-          {
-            "id": "90cf404d71db4fc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "MoPoS/3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/ADMET.md",
-=======
-                "file": "MoPoS/1_Reversible-deactivation radical polymerization/ATRP.md",
->>>>>>> 262c435e092aefdcd920552dfa44af8bf43b9faa
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "ADMET"
-=======
-              "title": "ATRP"
->>>>>>> 262c435e092aefdcd920552dfa44af8bf43b9faa
+              "title": "Macromolecular Engineering"
             }
           }
         ]
@@ -63,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7068685eeccfe7b3",
+    "id": "a05950026c42642b",
     "type": "split",
     "children": [
       {
-        "id": "2a461e23d139da6a",
+        "id": "6e6431fbe5a4fb3b",
         "type": "tabs",
         "children": [
           {
-            "id": "cfc2c919aa6a7ca0",
+            "id": "56f823a1ce97e41c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -84,7 +48,7 @@
             }
           },
           {
-            "id": "67a829666f17245c",
+            "id": "5678234ccbbcca8a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -101,7 +65,7 @@
             }
           },
           {
-            "id": "088a1806d1d93406",
+            "id": "ff889c2860987740",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -114,22 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "3f12323af708d093",
+    "id": "f06264727862c26a",
     "type": "split",
     "children": [
       {
-        "id": "081750fbed6d0b46",
+        "id": "db9358edb9f880ff",
         "type": "tabs",
         "children": [
           {
-            "id": "44ff4c9f084e845d",
+            "id": "93b3e33719b24a8d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "MoPoS/6_Macromolecular_Engineering/Macromolecular Engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise"
+              "title": "Rückverweise auf Macromolecular Engineering"
             }
           },
           {
-            "id": "e88b42641bd29759",
+            "id": "c53bb3782a012ddf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Willkommen.md",
+                "file": "MoPoS/6_Macromolecular_Engineering/Macromolecular Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von Willkommen öffnen"
+              "title": "Ausgehende Links von Macromolecular Engineering öffnen"
             }
           },
           {
-            "id": "0be6a587bb2a6e62",
+            "id": "a9129c32e5b59857",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -172,7 +137,7 @@
             }
           },
           {
-            "id": "4d8a1f06a8ac1924",
+            "id": "31cbe5bd51a9c7c3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -186,18 +151,18 @@
             }
           },
           {
-            "id": "ea34a5bcc8e87cc8",
+            "id": "2f56ec24513337e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Willkommen.md",
+                "file": "MoPoS/6_Macromolecular_Engineering/Macromolecular Engineering.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Willkommen"
+              "title": "Gliederung von Macromolecular Engineering"
             }
           }
         ]
@@ -218,55 +183,9 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "9fcf181a38001521",
+  "active": "cabd1f55bbdcd6fc",
   "lastOpenFiles": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "MoPoS/3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/ADMET.md",
-=======
-    "MoPoS/Klausuraufgaben.md",
-    "MoPoS/5_Conductive_ladder_polymers/Leitende Polymere.md",
->>>>>>> d811916e3880baf2b6d58a7843fd7ccc01e3f053
-    "MoPoS/3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/Cyclische Polymere.md",
-    "MoPoS/Bilder/Blockcopo_Styrol_N-Vinylpyrrolidon.png",
-    "MoPoS/5_Conductive_ladder_polymers/Leiter-Polymere.md",
-    "MoPoS/Bilder/Kamm_Methylamin.png",
-    "MoPoS/Bilder/Polymeranalog_Isobuten.png",
-    "MoPoS/Bilder/Makroraft_cP.png",
     "MoPoS/Fragen MoPoS.md",
-    "MoPoS/1_Reversible-deactivation radical polymerization/RAFT.md",
-    "MoPoS/4_Ring-opening_polymerization/ROP.md",
-    "MoPoS/3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization/ADMET.md",
-    "MoPoS/6_Macromolecular_Engineering/Macromolecular Engineering.md",
-    "MoPoS/1_Reversible-deactivation radical polymerization/ATRP.md",
-<<<<<<< HEAD
->>>>>>> 262c435e092aefdcd920552dfa44af8bf43b9faa
-    "MoPoS/5_Conductive_ladder_polymers/Leiter-Polymere.md",
-    "MoPoS/5_Conductive_ladder_polymers/Leitende Polymere.md",
-=======
->>>>>>> d811916e3880baf2b6d58a7843fd7ccc01e3f053
-    "MoPoS/Bilder/Pasted image 20260717183815.png",
-    "MoPoS/Bilder/Monomere.md",
-    "MoPoS",
-    "MoPoS/Bilder/Pasted image 20260718162605.png",
-    "MoPoS/Bilder/Pasted image 20260718162513.png",
-    "MoPoS/Bilder/Pasted image 20260718162456.png",
-    "MoPoS/Bilder/Pasted image 20260718162416.png",
-    "MoPoS/Bilder/Pasted image 20260718162358.png",
-    "MoPoS/1_Reversible-deactivation radical polymerization/NMP.md",
-    "MoPoS/6_Macromolecular_Engineering",
-    "MoPoS/5_Conductive_ladder_polymers",
-    "Ink/Drawing/2026.7.15 - 18.45pm.drawing",
-    "Ink/Drawing/2026.7.15 - 18.44pm.drawing",
-    "Ink/Drawing/2026.7.12 - 18.54pm.drawing",
-    "MoPoS/2_Insertion_polymerization;synthesis_of_polyolefins/Insertionspolymerisation.md",
-    "MoPoS/4_Ring-opening_polymerization",
-    "MoPoS/3_Cyclopolymerization_and_acyclic_diene_metathesis_polymerization",
-    "MoPoS/2_Insertion_polymerization;synthesis_of_polyolefins",
-    "MoPoS/1_Reversible-deactivation radical polymerization/RDRP.md",
-    "MoPoS/0_Reminder/Reminder.md",
-    "Ink/Drawing/2026.7.5 - 12.36pm.drawing",
-    "Willkommen.md"
+    "MoPoS/Klausuraufgaben.md"
   ]
 }
