@@ -1,0 +1,137 @@
+\documentclass[11pt]{scrreport}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[german] {babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,float}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{suffix}
+\usepackage{xstring}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{chemformula}
+\usepackage[breaklinks,pdfpagelabels,hidelinks]{hyperref}%
+\usepackage[figure]{hypcap}
+\usepackage{cleveref}
+\usepackage[style=chem-angew, backend=biber,doi,chaptertitle,articletitle]{biblatex}
+\usepackage{chemfig}
+\usepackage[right=2.5cm, left=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}%,showframe
+\usepackage{ragged2e}
+\usepackage{caption}
+\usepackage[section]{placeins}
+\usepackage{colortbl}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{siunitx}
+\sisetup{detect-all, locale = DE}
+\usepackage[useregional]{datetime2}
+\usepackage[nopostdot,style=super,acronyms,nonumberlist,toc,translate=babel]{glossaries-extra}
+\usepackage{tikz}
+\usepackage{csquotes}
+\usepackage[list=true]{subcaption}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\renewcommand{\familydefault}{\sfdefault}
+\addbibresource{SoftMatter.bib}
+\let\cite=\supercite
+\numberwithin{equation}{chapter}
+\addto{\captionsgerman}{\renewcommand*{\contentsname}{Inhaltsverzeichnis}}
+
+
+\DefineBibliographyExtras{german}{%
+	\DeclareBibstringSet{latin}{andothers,ibidem}%
+	\DeclareBibstringSetFormat{latin}{\mkbibemph{#1}}%
+}
+\UndefineBibliographyExtras{german}{%
+	\UndeclareBibstringSet{latin}%
+}
+\DefineBibliographyStrings{german}{%
+	andothers = {et al\adddot},
+}
+\renewcommand\mkbibnamefamily[1]{\textsc{#1}}
+\raggedbottom
+\begin{document}
+	\begin{titlepage}
+		\setcounter{page}{0}
+		\centering
+		\includegraphics[width=0.6\textwidth]{"HHU_Logo_WortBildMarke.png"} 
+		\vfill
+		{\LARGE\bfseries Protokoll zu: \\Synthese eines nicht-kovalent verknüpften Polymer-Gels} \\
+		\vfill
+		Mathematisch-Naturwissenschaftliche Fakultät\\
+		Heinrich Heine-Universität Düsseldorf\\
+		\vfill
+		für das Modul\\
+		Soft Matter\\
+		Advanced Materials (AdMat)\\
+		im Sommersemester 2026
+		\vfill
+		Betreuende Person: Monir Tabatabai\\
+		Abgabedatum: \today
+		\vfill
+		von:\\
+		\begin{tabular}{cc}
+			Lena-Marie Aßmann    &  Nils Wölke\\
+			\href{mailto:lena-marie.assmann@hhu.de}{lena-marie.assmann@hhu.de}    & \href{mailto:nils.woelke@hhu.de}{nils.woelke@hhu.de} 
+		\end{tabular}
+		\vfill
+	\end{titlepage}
+	\pagenumbering{Roman}
+	\setcounter{page}{1}
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}
+	\chapter{Einleitung}
+	Ziel des Versuchs ist es nicht-kovalent, physikalisch, verknüpfte Polymer-Gele herzustellen. Dies soll am Beispiel von Alginat mit Koordinierung an Calcium-Ionen aufgezeigt werden. Weiterhin sollen durch verschiedene Zugabereihenfolgen verschiedene Morphologien der Netzwerke geschaffen werden.
+	{\let\clearpage\relax\chapter{Theoretischer Hintergrund}}
+	Das zu verwendende Alginat ist in \autoref{fig:Struktur} abgebildet. Alginsäure ist ein Copolymer bestehend aus $\mathrm{\beta}$-\textsc{D}-Mannuronsäure und $\mathrm{\alpha}$-\textsc{D}-Guluronsäure.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{"Alginat_Struktur.png"}
+		\caption[Struktur des Natrium-Alginat-Polysaccharids.\cite{noauthor_versuchsskript_2026}] {Struktur des Natrium-Alginat-Polysaccharids. Adaptiert nach \citetitle{noauthor_versuchsskript_2026} (\citedate{noauthor_versuchsskript_2026}).\cite{noauthor_versuchsskript_2026}}
+		\label{fig:Struktur}
+	\end{figure}\noindent
+	Anionen der Guluronsäure können dabei mit Metallkationen eine Koordinationsbindung eingehen, wobei Kationen Erdalkalimetalle, Übergangsmetalle, Lanthanoide und Actinoide verschiedener Wertigkeiten sein können. Gehen nun Guluronsäure-Einheiten verschiedener Polymerstränge eine solche Koordinationsverbindung ein, so kommt es zu einer physikalischen Vernetzung, wie in \autoref{fig:Koordination} dargestellt. Dies ist ein irreversibler Prozess, welcher durch die Diffusionsrate von Kationen und Polymeren in die Gelierzone gesteuert wird. \cite{tordi_cation-alginate_2025,blandino_formation_1999}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{"Ca+Alginat_Koordination.JPG"}
+		\caption[Prinzip der Koordination von \ch{Ca^{2+}} und Guluronsäure-Einheiten.\cite{tordi_cation-alginate_2025}]{Prinzip der Koordination von \ch{Ca^{2+}} und Guluronsäure-Einheiten. Adaptiert aus \citeauthor{tordi_cation-alginate_2025} (\citedate{tordi_cation-alginate_2025}). \cite{tordi_cation-alginate_2025}}
+		\label{fig:Koordination}
+	\end{figure}
+	{\let\clearpage\relax\chapter{Experimentalteil}}
+	\section{Durchführung}
+	Die Durchführung wurde entsprechend des Skripts durchgeführt. Zur besseren Veranschaulichung wurde die Natriumalginat-Lösung durch einen Farbstoff grün eingefärbt.\cite{noauthor_versuchsskript_2026}
+	\section{Ergebnisse \& Auswertung}
+	Zunächst soll die Bildung der Alginat-Partikel betrachtet werden, welche in \autoref{minifig:Partikel} dargestellt sind. Dazu wurde die Alginat-Lösung zu der Calciumchlorid-Lösung getropft und es bildeten sich instantan kleine Partikel. Dies ist dadurch zu erklären, dass Calcium-Ionen an die Gulluronsäure-Einheiten koordinieren. Die Calciumatome sind klein genug, um in den Kern der Partikel zu diffundieren, wodurch eine gleichmäßige Härte innerhalb eines Partikels aufzufinden ist.\\
+	Bei den Alginat-Kapsel, abgebildet in \autoref{minifig:Kapsel}, war zu beobachten, dass die Kapseln mit der Zeit etwas anschwellen. Sie sind außerdem spürbar weicher als die Partikel. Dies geschieht durch das Diffundieren der Calciumatome an die äußere Grenzfläche, bis alle Kationen koordiniert werden. Die Alginat-Ketten sind jedoch zu groß, um in das Innere zu diffundieren, wodurch dort lediglich Lösungsmittel und somit ein weicher Kern vorliegt. Die Kapseln neigen jedoch auch zu Agglomerierung, wenn sich diese zu nah beieinander befinden. Dies wurde jedoch nicht fotografisch festgehalten.\\
+	In \autoref{fig:Vergleich} sind beide vernetzten Systeme zum Größenvergleich nebeneinander dargestellt.
+	\begin{center}
+		\begin{minipage}[t]{0.49\textwidth}
+			\raggedright
+			\includegraphics[height=5cm]{"Alginat_Partikel.JPEG"}
+			\captionof{figure}{Alginat-Partikel: Natriumalginat-Lösung in Calciumchlorid-Lösung getropft.}
+			\label{minifig:Partikel}
+		\end{minipage}
+		\begin{minipage}[t]{0.49\textwidth}
+			\raggedleft
+			\includegraphics[height=5cm]{"Alginat_Kapsel.JPEG"}
+			\captionof{figure}{Alginat-Kapseln: Calciumchlorid-Lösung in Natriumalginat-Lösung getropft.}
+			\label{minifig:Kapsel}
+		\end{minipage}
+	\end{center}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\textwidth]{"Alginat_Vergleich.JPEG"}
+		\caption{Gegenüberstellung der Alginatpartikeln und -kapseln zum Größenvergleich.}
+		\label{fig:Vergleich}
+	\end{figure}
+	{\let\clearpage\relax\chapter{Zusammenfassung}}
+	In dem Versuch konnten erfolgreich Alginat-Gele verschiedener Morphologien hergestellt werden. Die nicht-kovalente Vernetzung konnte anschaulich über wenig komplexe Synthese dargestellt werden. Durch die verschiedenen Synthesewege wurden weiterhin verschiedene Eigenschaften der resultierenden Gele aufgezeigt.
+	\listoffigures
+	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+	{\let\clearpage\relax\printbibliography}
+	\addcontentsline{toc}{chapter}{Literatur}
+\end{document}
