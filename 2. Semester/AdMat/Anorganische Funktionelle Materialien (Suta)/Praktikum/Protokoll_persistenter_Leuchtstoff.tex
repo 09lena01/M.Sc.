@@ -15,7 +15,7 @@
 \usepackage[breaklinks,pdfpagelabels,hidelinks]{hyperref}%
 \usepackage[figure]{hypcap}
 \usepackage{cleveref}
-\usepackage[style=chem-angew, backend=biber,doi,chaptertitle,articletitle,url]{biblatex}
+\usepackage[style=chem-angew,backend=biber,doi,chaptertitle,articletitle,url]{biblatex}
 \usepackage{chemfig}
 \usepackage[right=2.5cm, left=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}%,showframe
 \usepackage{ragged2e}
@@ -35,7 +35,7 @@
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 \renewcommand{\familydefault}{\sfdefault}
-\addbibresource{Leuchtstoffe.bib}
+\addbibresource{Bitte.bib}
 \let\cite=\supercite
 \numberwithin{equation}{chapter}
 \addto{\captionsgerman}{\renewcommand*{\contentsname}{Inhaltsverzeichnis}}
@@ -86,21 +86,29 @@
 	\pagenumbering{arabic}
 	\chapter{Einleitung} %max 1 Seite
 	In diesem Versuch gilt es den persistenten Leuchtstoff \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} zu synthetisieren und über Pulverröntgendiffraktion (PXRD) zu charakterisieren. Mittels UV-Strahlung wird das Nachleuchten des Produkts betrachtet, sowie das Verhalten der Lumineszenz bei tieferen Temperaturen. Weiterhin wird in der Synthese die Precursor-Methode angewandt, wobei über Vorstufen, welche einen geringeren Schmelzpunkt besitzen, wodurch die Reaktionstemperatur herabgesetzt werden kann, \textit{in situ} das benötigte Edukt gebildet wird.\cite{suta_versuchsskript_2026}\\
-	Persistente Leuchtstoffe sind im allgemeinen Sprachgebrauch häufig als \glqq Glow-in-the-dark\grqq~Materialien bekannt und schon in Kinderzimmern auffindbar. So wird für Leuchtsterne, welche häufig im Kinderzimmer an Decken und Wänden aufzufinden sind, mit \ch{Cu+}, manchmal auch \ch{Co^{2+}}, dotiertes Zinksulfid verwendet. \cite{suta_versuchsskript_2026,kornich_seite_2022} Das hier herzustellende \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} ist unter anderem in Notausgangsschildern zu finden.\cite{suta_versuchsskript_2026,xu_persistent_2019}
+	Persistente Leuchtstoffe sind im allgemeinen Sprachgebrauch häufig als \glqq Glow-in-the-dark\grqq~Materialien bekannt und schon in Kinderzimmern auffindbar. So wird für Leuchtsterne, welche häufig im Kinderzimmer an Decken und Wänden aufzufinden sind, mit \ch{Cu+}, manchmal auch \ch{Co^{2+}}, aktiviertes Zinksulfid verwendet. \cite{suta_versuchsskript_2026,kornich_seite_2022} Das hier herzustellende \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} ist unter anderem in Notausgangsschildern zu finden, wie in \autoref{fig:Luminova} dargestellt.\cite{suta_versuchsskript_2026,xu_persistent_2019}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[height=9cm]{Luminova.png}
 		\caption{Anwendung des persistenten Leuchtstoffs LumaNova\textsuperscript{\textregistered} (\ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}}) in \linebreak b{)} Rettungszeichen, c{) analogen Uhren, d{)} Farben zur Wegbeleuchtung.} \cite{xu_persistent_2019}}
+		\label{fig:Luminova}
 	\end{figure}
 	\chapter{Theoretischer Hintergrund} %max 2 Seiten
-	
+	Emission, welche nach dem Entfernen der Anregungsquelle für einen verlängerten Zeitraum sichtbar ist, und somit langsam abklingt, wird auch persistente Lumineszenz genannt. Dies ist ein temperaturabhängiger Prozess, bei dem Ladungsträger, wie Elektronen und Elektronenlöcher, in der Bandlücke der Wirtsverbindung eingefangen werden können. Dafür können redoxaktive Aktivatoren in der Verbindung eingesetzt werden, um als Elektronenfalle zu dienen. Durch Einflüsse wie Temperatur oder Druck können die Ladungsträger erneut freigesetzt werden, wodurch es zur Rekombination der Ladungsträger kommt. Dadurch kommt es zu einer Rückbildung des eigentlich emittierenden Zustands, welcher strahlend unter Abgabe eines Photons zerfallen kann. Weiterhin wird angenommen, dass dieser Prozess auch durch Tunneln stattfinden kann. \autoref{fig:Mechanismus} zeigt den allgemeinen Mechanismus der persistenten Lumineszenz. \cite{suta_versuchsskript_2026,brito_persistent_2012,liepina_tunneling_2017}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{Mechanismus.png}
+		\caption{Allgemeiner Mechanismus der persistenten Lumineszenz.\cite{suta_versuchsskript_2026,xu_persistent_2019}}
+		\label{fig:Mechanismus}
+	\end{figure}\noindent
+	Bei dem herzustellenden Phosphor \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} ist das \ch{Eu^{2+}} der Emitter und das \ch{Dy^{3+}} die Elektronenfalle, wobei es intermediär zu \ch{Dy^{2+}} reduziert wird.
 	\chapter{Resultate und Diskussion} %max 3 Seiten
-	Abweichend von der Versuchsvorschrift\cite{suta_versuchsskript_2026} wurden die Edukte für \SI{10}{min} miteinander verrieben und die Aktivkohle in einer geschlossenen Atmosphäre neben den Tiegel platziert, um die reduktive Wirkung der Aktivkohle zu erhöhen.
-	
-	Die Einwaagen betrugen folgende Werte:
+	Die Synthese wurde überwiegend entsprechend der Versuchsvorschrift\cite{suta_versuchsskript_2026} durchgeführt. Davon abweichend wurden die Edukte für \SI{10}{min}, statt \SI{5}{min}, miteinander verrieben. Weiterhin wurde nicht mit \ch{N2}-Strom getempert, sondern die Reaktion unter regulärer Luftatmosphäre durchgeführt und statt einem Röhrenofen wurde ein Muffelofen verwendet. Außerdem wurde die Aktivkohle neben den Tiegel der Reaktanten platziert und abgedeckt, um die reduktive Wirkung verlängert bei der Probe zu lokalisieren. Die Aktivkohle dient dazu, dass sie mit dem Luftsauerstoff Kohlenstoffmonoxid und -dioxid bildet, sodass weniger Sauerstoff mit den Edukten reagieren kann und die Stöchiometrie weitestgehend erhalten bleibt.\\
+	Die Einwaagen sind \autoref{tab:Einwaagen} zu entnehmen:
 	\begin{table}[H]
 		\centering
 		\caption{Einwaagen der Edukte für die Synthese.}
+		\label{tab:Einwaagen}
 		\begin{tabular}{|c|c|c|}
 			\hline
 			\textbf{Chemikalie}& \textbf{Einwaage soll} [mg]& \textbf{Einwaage ist} [mg]   \\ \hline
@@ -109,47 +117,55 @@
 			\ch{Eu2O3}& 2,12 &  2,9  \\ \hline
 			\ch{Dy2O3}& 4,49 &  4,5  \\ \hline
 		\end{tabular}
-	\end{table}
-	
-
+	\end{table}\noindent
+	Im Anschluss zur Synthese wurde das Produkt auf seine persistente Lumineszenz geprüft. Dafür wurde jenes für einige Zeit mit einer UV-Lampe bestrahlt und im Anschluss in Dunkelheit betrachtet. \autoref{minifig:Nachleuchten} zeigt das Nachleuchten des Produkts, wodurch bestätigt wurde, dass ein persistenter Leuchtstoff hergestellt wurde. Unter Kühlung mit Stickstoff konnte, wie in \autoref{minifig:Kühlen} dargestellt, das Fehlen der persistenten Lumineszenz aufgezeigt werden, was der Erwartung entspricht. Dies könnte dadurch zu erklären sein, dass der Übergang vom angeregten Zustand in den Trap-Zustand überwiegend über das Leitungsband geschieht und die Energiebarriere bei tiefen Temperaturen nicht überwunden werden kann.
+	Die einsetzende Lumineszenz an den Rändern des Probengefäßes ist dadurch zu erklären, dass die Temperatur dort bereits genug angestiegen ist, um dies zu ermöglichen. 
+	Die Effizienz des Leuchtstoffs könnte durch Photolumineszenz-Spektroskopie weitergehend untersucht und die Quantenausbeute bestimmt werden.\cite{liepina_tunneling_2017}
 	\begin{center}
 	\begin{minipage}[t]{0.45\textwidth}
 		\raggedright
 		\includegraphics[height=6cm]{"SrAl2O4_glow.JPEG"}
 		\captionof{figure}{Nachleuchten des Produkts nach Bestrahlung mit UV-Licht bei Raumtemperatur.}
+		\label{minifig:Nachleuchten}
 	\end{minipage}
 	\begin{minipage}[t]{0.45\textwidth}
 		\raggedleft
 		\includegraphics[height=6cm]{"SrAl2O4_cold.JPEG"}
 		\captionof{figure}{Fehlendes Nachleuchten des Produkts nach Bestrahlung mit UV-Licht nach Kühlen mit flüssigem Stickstoff.}
+		\label{minifig:Kühlen}
 	\end{minipage}
 	\end{center}
-	
+	Zur Charakterisierung des Produkts wurde außerdem ein PXRD aufgenommen und gegen eine Referenzmessung aus der Literatur aufgetragen, wie in \autoref{fig:PXRD} dargestellt.\cite{denault_average_2015}
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=\textwidth]{PXRD_comparison.PNG}
-		\caption{Gegenüberstellung des normierten PXRDs der Referenzmessung (\textcolor{red}{\rule[0.5ex]{1em}{0.5pt}}) und dem hergestellten Produkt (\textcolor{black}{\rule[0.5ex]{1em}{0.5pt}}).}
-	\end{figure}
-	
+		\includegraphics[width=0.8\textwidth]{PXRD_comparison.PNG}
+		\caption{Gegenüberstellung des normierten PXRDs der Referenzmessung (\textcolor{red}{\rule[0.5ex]{1em}{0.5pt}}) und dem hergestellten Produkt (\textcolor{black}{\rule[0.5ex]{1em}{0.5pt}}).\cite{denault_average_2015}}
+		\label{fig:PXRD}
+	\end{figure}\noindent
+	Bei Vergößerung des Ausschnitts ist zu erkennen, dass eine Verschiebung der Diffraktogramme vorliegt zwischen der Referenz und Probe. Es ist davon auszugehen, dass dies ein Messartefakt ist und durch eine Korrektur behoben werden kann. Weiterhin ist in \autoref{fig:shift} zu erkennen, dass sich die Reflexe verbreitern, was auf eine geringe Kristallinität der Probe zurückführbar ist.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\textwidth]{PXRD_shift.PNG}
-		\captionof{figure}{Darstellung der Verschiebung der Referenz- und Probenmessung, sowie der unterschiedlichen Signalformen.}
-	\end{figure}
-	\begin{minipage}[t]{0.5\textwidth}
+		\captionof{figure}{Darstellung der Verschiebung der Referenz- und Probenmessung, sowie der unterschiedlichen Signalformen.\cite{denault_average_2015}}
+		\label{fig:shift}
+	\end{figure}\noindent
+	Dem Diffraktogramm ist außerdem zu entnehmen, dass Verunreinigungen vorliegen. Die Reflexe bei $\mathrm{2\theta}$-Werten von \SIlist{38,4;44,7;65,1}{\degree} sind dabei dem Probenträger zuzuordnen und können vernachlässigt werden. Besonders hervorstechend sind jedoch die Reflexe bei \SIlist{19,1;33,3}{\degree}, wie untenstehend abgebildet. Diese lassen sich jedoch nicht eindeutig Reflexen der Edukte zuordnen. 
+	\begin{center}
+	\begin{minipage}[t]{0.45\textwidth}
 		\raggedleft
 		\includegraphics[width=\textwidth]{PXRD_14-21_impurity.PNG}
-		\captionof{figure}{heading}
+		\captionof{figure}{Unreinheit im Diffraktogramm bei $\mathrm{2\theta=19,1^\circ}$.}
 	\end{minipage}
-	\begin{minipage}[t]{0.5\textwidth}
+	\begin{minipage}[t]{0.45\textwidth}
 		\raggedright
 		\includegraphics[width=\textwidth]{PXRD_32-39_impurity.PNG}
-		\captionof{figure}{heading}
+		\captionof{figure}{Unreinheit im Diffraktogramm bei $\mathrm{2\theta=33,3^\circ}$.}
 	\end{minipage}
-	
-	\chapter{Zusammenfassung} %max 1 Seite
-	
-	\listoffigures
+	\end{center}
+	Aufgrund der generellen Übereinstimmung der Reflexe der Proben- und Referenzmessung kann jedoch davon ausgegangen werden, dass \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} hergestellt wurde.
+	\chapter{Zusammenfassung}\noindent %max 1 Seite
+	In dem Versuch wurde erfolgreich der persistente Leuchtstoff \ch{SrAl2O4~:~Eu^{2+},~Dy^{3+}} über die Prekursor-Methode hergestellt. Dies konnte über eine PXRD-Messung bestätigt werden. Weiterhin konnte es über das Bestrahlen mit UV-Licht und die daraufhin sichtbare persistente Lumineszenz belegt werden. Die Reinheit des Produkts könnte über eine PXRD-Messung von höher kristallinen Material unter Verwendung von geeigneter Auswertesoftware genauer betrachtet werden. Außerdem könnte über Photolumineszenz-Spektroskopie die Lumineszenz detailreicher untersucht werden.
+	{\let\clearpage\relax\listoffigures}
 	\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
-	{\let\clearpage\relax\printbibliography}
+	\printbibliography
 	\end{document}

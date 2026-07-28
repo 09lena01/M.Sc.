@@ -35,9 +35,11 @@ Shirakawas Methode
 ![[Pasted image 20260717183846.png]]
 ![[Pasted image 20260717183904.png]]
 ![[Pasted image 20260717183928.png]]
-# Licht-emittierende Polymere
+# Licht-emittierende Polymere 
+#PPV #PAT
 ![[Pasted image 20260717184023.png]]
-## OLED
+## OLED 
+#PEDOT
 ![[Pasted image 20260717184121.png]]
 ## Solarzelle
 ![[Pasted image 20260717184221.png]]
