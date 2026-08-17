@@ -1,4 +1,4 @@
-- one macroscopiçnetwork after curing (heating up and creating network)
+- one macroscopiç network after curing (heating up and creating network)
 - heating may soften material, but cannot be melted and reprocessed
 	- dimensional stability, high-temperature performance, chemical resistance and structural integrity
 Synthesis:
