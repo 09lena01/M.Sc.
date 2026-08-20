@@ -11,14 +11,12 @@
             "id": "9dd1bb43dd06675e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Block-Copolymers/5_Materials from Solution Self-Assembly.md",
-                "mode": "source",
-                "source": false
+                "file": "Block-Copolymers/Bilder/Pasted image 20260820210002.png"
               },
-              "icon": "lucide-file",
-              "title": "5_Materials from Solution Self-Assembly"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260820210002"
             }
           }
         ]
@@ -188,22 +186,21 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "9dd1bb43dd06675e",
+  "active": "d9101ed9abae9404",
   "lastOpenFiles": [
-    "Block-Copolymers/Bilder/Pasted image 20260818211706.png",
     "Block-Copolymers/5_Materials from Solution Self-Assembly.md",
+    "Block-Copolymers/Bilder/Pasted image 20260820212102.png",
+    "Block-Copolymers/Bilder/Pasted image 20260820211441.png",
+    "Block-Copolymers/Bilder/Pasted image 20260820211416.png",
+    "Block-Copolymers/Bilder/Pasted image 20260820211323.png",
+    "Block-Copolymers/4_Solid-State Self-Assembly.md",
+    "Block-Copolymers/Bilder/Pasted image 20260820210002.png",
+    "Block-Copolymers/Bilder/Pasted image 20260818211706.png",
     "Block-Copolymers/Bilder/Pasted image 20260818213804.png",
     "Block-Copolymers/Bilder/Pasted image 20260818213755.png",
     "Block-Copolymers/Bilder/Pasted image 20260818213616.png",
     "Block-Copolymers/Bilder/Pasted image 20260818213449.png",
-    "Block-Copolymers/4_Solid-State Self-Assembly.md",
     "Block-Copolymers/3_Molecular Characterization.md",
-    "Block-Copolymers/Bilder/Pasted image 20260818213026.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818212916.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818212803.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818212631.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818212401.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818212329.png",
     "Block-Copolymers/5_Materials from Solution Self-Assembly",
     "Block-Copolymers/1_General Concepts.md",
     "Soft Matter/Hydro-, Micro-, Nanogels.md",

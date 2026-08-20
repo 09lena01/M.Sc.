@@ -52,3 +52,43 @@
 ## Dynamic Light Scattering ( #DLS)
 ![[Pasted image 20260818213755.png]]
 ![[Pasted image 20260818213804.png]]
+## Static Light Scattering ( #SLS )
+![[Pasted image 20260820210002.png]]
+Zimm equation:
+$\frac{Kc}{\Delta R(\theta,c)}=\frac{1}{M_w}(1+\frac{q^2R_g^2}{3}+O(q^4)(1+2M_wA_2c+O(c^2))$ 
+- K: intrinsic values $n,dn/dc,\lambda$
+- q: Intrinsic values $n,\vartheta,\lambda$ 
+- $M_w$: weight-average molar mass
+- $R_g$: Radius if gyration
+	- mass weigvhgted average distance from the core of a molecule to each mass element in the molecule
+
+- shape factor: $\rho=R_g/R_h$
+	- $\rho=0,775$: globule/sphere
+	- $\rho=0,816$: coil
+	- $\rho=1,732$: rod
+## Small-Angle X-Ray Scattering ( #SAXS )
+s. [[4_Solid-State Self-Assembly]]
+## Small-Angle Neutron Scattering ( #SANS )
+- important for scattering-based characterization: contrast between particle & surrounding material necessary
+	- type of contrast varies by type of radiation
+		- Light scattering: transmittance contrast
+		- #SAXS: electron density contrast
+		- #SANS: neutron scattering cross-section
+			- X-rays interact with electronic cloud, neutron with nucleus
+![[Pasted image 20260820211323.png]]
+## Zeta Potential
+![[Pasted image 20260820211416.png]]
+![[Pasted image 20260820211441.png]]
+Henry's equation (electrophoretic mobility)
+$\mu_E=\frac{2\varepsilon\zeta f(\kappa a)}{3\eta}$ 
+- $\varepsilon$: dielectric constant
+- $\eta$: viscosity
+- $\zeta$: zeta potential
+- $f(\kappa a)$: Henry's function
+	- approximations:
+		- Smoluchowski: 1,5 (D > 200 nm, > 1 mM salt), aqueous media
+		- Hückel: 1,0 (small particles in low $\varepsilon$ media), non-aqueous media
+- in practice: $\nu_0=\frac{\mu_E}{E_0}$
+	- $\nu_0$: velocity
+	- $E_0$: applied electrical fiels
+![[Pasted image 20260820212102.png]]
