@@ -34,7 +34,7 @@
 ![[Pasted image 20260818212916.png]]
 - particle: monomer + polymer
 - micelle: monomer
-## Polymerization-Induced Self-Assembly
+## Polymerization-Induced Self-Assembly ( #PISA )
 ![[Pasted image 20260818213026.png]]
 - as emulsion polymerization (no surfactant)
 - or dispersion polymerization (reactants soluble, polymer insoluble)

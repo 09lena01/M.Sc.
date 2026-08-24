@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "63ccbbc7009062ac",
+        "id": "262f4092938bee15",
         "type": "tabs",
         "children": [
           {
-            "id": "9dd1bb43dd06675e",
+            "id": "1968af8d30e6aadf",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Block-Copolymers/Bilder/Pasted image 20260820210002.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260820210002"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -186,20 +184,21 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "d9101ed9abae9404",
+  "active": "1968af8d30e6aadf",
   "lastOpenFiles": [
+    "Block-Copolymers/0_Labwork.md",
+    "Block-Copolymers/Bilder/Pasted image 20260824202701.png",
+    "Block-Copolymers/Bilder/Pasted image 20260824202731.png",
     "Block-Copolymers/5_Materials from Solution Self-Assembly.md",
+    "Block-Copolymers/4_Solid-State Self-Assembly.md",
+    "Block-Copolymers/Bilder/Pasted image 20260824201957.png",
+    "Block-Copolymers/Bilder/Pasted image 20260824195657.png",
+    "Block-Copolymers/Bilder/Pasted image 20260823163310.png",
+    "Block-Copolymers/Bilder/Pasted image 20260823163514.png",
+    "Block-Copolymers/Bilder/Pasted image 20260823163502.png",
+    "Block-Copolymers/Bilder/Pasted image 20260820210002.png",
     "Block-Copolymers/Bilder/Pasted image 20260820212102.png",
     "Block-Copolymers/Bilder/Pasted image 20260820211441.png",
-    "Block-Copolymers/Bilder/Pasted image 20260820211416.png",
-    "Block-Copolymers/Bilder/Pasted image 20260820211323.png",
-    "Block-Copolymers/4_Solid-State Self-Assembly.md",
-    "Block-Copolymers/Bilder/Pasted image 20260820210002.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818211706.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818213804.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818213755.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818213616.png",
-    "Block-Copolymers/Bilder/Pasted image 20260818213449.png",
     "Block-Copolymers/3_Molecular Characterization.md",
     "Block-Copolymers/5_Materials from Solution Self-Assembly",
     "Block-Copolymers/1_General Concepts.md",
